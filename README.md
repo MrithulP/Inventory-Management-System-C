@@ -1,2 +1,2 @@
-# Inventory-Management-System-C-
+# Inventory-Management-System-C
 Simple Inventory Management System using C
