@@ -34,14 +34,14 @@ Product inventory[MAX_PRODUCTS];
 int     count = 0;          /* number of products currently stored */
 
 /* ------------------------------------------
-   Helper – print a divider line
+   Helper â€“ print a divider line
 ------------------------------------------ */
 void printLine(void) {
     printf("------------------------------------------------------------\n");
 }
 
 /* ------------------------------------------
-   Helper – print table header
+   Helper â€“ print table header
 ------------------------------------------ */
 void printHeader(void) {
     printLine();
@@ -51,7 +51,7 @@ void printHeader(void) {
 }
 
 /* ------------------------------------------
-   Helper – print a single product row
+   Helper â€“ print a single product row
 ------------------------------------------ */
 void printProduct(const Product *p) {
     printf("| %-6d | %-20s | %-10.2f | %-8d |\n",
@@ -165,7 +165,7 @@ void deleteProduct(void) {
 }
 
 /* ------------------------------------------
-   5. SORT BY PRICE  (Selection Sort – ascending)
+   5. SORT BY PRICE  (Selection Sort â€“ ascending)
 ------------------------------------------ */
 void sortByPrice(void) {
     if (count < 2) {
@@ -192,7 +192,7 @@ void sortByPrice(void) {
 }
 
 /* ------------------------------------------
-   6. SORT BY QUANTITY  (Insertion Sort – ascending)
+   6. SORT BY QUANTITY  (Insertion Sort â€“ ascending)
 ------------------------------------------ */
 void sortByQuantity(void) {
     if (count < 2) {
